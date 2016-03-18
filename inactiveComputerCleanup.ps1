@@ -1,6 +1,7 @@
 ﻿#Remove 100 oldest inactive computer objects from the domain 
 #Metric for inactivity is lastLogonTimeStamp
 #LaForge
+#
 import-module activedirectory  
 $domain = "admnet.oakland.edu"  
 $DaysInactive = 365
